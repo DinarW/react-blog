@@ -1,0 +1,73 @@
+.block {
+  padding: 68px 48px 0 48px;
+
+  .title {
+    width: 80%;
+    min-height: 100px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #d7d7d7;
+    border: none;
+    resize: none;
+  }
+
+  .title:focus {
+    outline: none;
+  }
+
+  .imageUrl {
+    margin-top: 25px;
+    margin-bottom: 100px;
+
+    .uploadIcon {
+      margin-right: 9px;
+    }
+
+    label {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0a3465;
+      margin-bottom: 7px;
+    }
+
+    button {
+      width: 145px;
+      height: 45px;
+      background: #6fcf97;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      border: none;
+    }
+
+    button:hover {
+      background: #55c282;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .publish {
+    margin-top: 25px;
+    float: right;
+    padding: 9px 30px;
+    min-width: 160px;
+    min-height: 45px;
+    background: #ffdf36;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #68572d;
+    transition: 0.15ms ease-in-out;
+  }
+
+  .publish:hover {
+    background: #f1d234;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,10 @@
+.Home {
+  display: grid;
+  grid-template-columns: 72fr 62fr 5fr;
+  height: 100vh;
+}
+
+.leftSide,
+.rightSide {
+  overflow: scroll;
+}
