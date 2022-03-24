@@ -1,0 +1,52 @@
+.preview {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 30px;
+  border: 1px solid #f9f9f9;
+}
+
+.active {
+  border-left: 4px solid #13315e;
+}
+
+.title {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #080b0e;
+  cursor: pointer;
+}
+
+.shortDescription {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #898c90;
+}
+
+.metaInfo {
+  display: flex;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  text-transform: uppercase;
+  color: #c1c1c1;
+  margin-top: 18px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
+  }
+}
+
+.previewImg {
+  width: 160px;
+  height: 160px;
+  border-radius: 15px;
+  margin-left: 40px;
+}

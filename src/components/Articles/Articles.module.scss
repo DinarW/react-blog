@@ -1,0 +1,35 @@
+.switchPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 50px 30px;
+  width: 556px;
+  height: 50px;
+
+  .togglePage {
+    display: flex;
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 9px;
+      width: 77.1px;
+      height: 50px;
+      background: #f9f9f9;
+      border-radius: 3px;
+      border: none;
+    }
+
+    .activeSwitch:hover {
+      background: #e7e5e5;
+    }
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #aeb3b7;
+  }
+}

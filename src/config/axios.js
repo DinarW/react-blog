@@ -1,0 +1,10 @@
+import axios from "axios";
+
+export const instance = axios.create({
+  baseURL: "http://localhost:5656",
+  headers: {
+    Authorization:
+      localStorage.getItem("user") &&
+      JSON.parse(localStorage.getItem("user")).token,
+  },
+});
